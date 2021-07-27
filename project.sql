@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 22, 2021 at 08:42 PM
+-- Generation Time: Jul 23, 2021 at 05:47 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -235,7 +235,11 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `type`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Subodh', 'admin', 'subodh6580@gmail.com', NULL, '$2y$10$LEJIHlOOWv6ykIps8CkDJ.2mpYu2T3ymtCcx3E/osRDv3n1QWkmSi', NULL, '2021-07-22 12:00:09', '2021-07-22 12:00:09'),
-(2, 'John', 'user', 'john@gmail.com', NULL, '$2y$10$7zacDZJnBd3ykChN3Gw7E.2f/WydmD7T/to1gfMce159aU3CT30sG', NULL, '2021-07-22 12:06:19', '2021-07-22 12:06:19');
+(2, 'John', 'user', 'john@gmail.com', NULL, '$2y$10$7zacDZJnBd3ykChN3Gw7E.2f/WydmD7T/to1gfMce159aU3CT30sG', NULL, '2021-07-22 12:06:19', '2021-07-22 12:06:19'),
+(3, 'test', 'user', 'test@gmail.com', NULL, '$2y$10$3ClnfEyVu/f10SYqifRybOZX8ecGZN5W09qEFQZYNCNq3YeRo/2ta', NULL, '2021-07-23 01:44:16', '2021-07-23 01:44:16'),
+(4, 'Subham HR', 'hr', 'subham@gmail.com', NULL, '$2y$10$h1tJFUb8tXKrLKgtk1V5OOKgvu4gyEYDaITLIG1m8zEHhvbEPZgsO', NULL, '2021-07-23 02:07:32', '2021-07-23 02:07:32'),
+(6, 'user1', 'user', 'kamodkumar.gh@gmail.com', NULL, '$2y$10$T9me8n1ZuqalgiC7FTzhou8RLvsbfbuuL2m9hhJ/1hJmhc05UfqtO', NULL, '2021-07-23 04:54:59', '2021-07-23 04:54:59'),
+(7, 'user2', 'user', 'user2@gmail.com', NULL, '$2y$10$neI18ERN.i8nneSeidO7wecs0HQJ2Pcq1nMFygk5opyhnyk2vZ8Tu', NULL, '2021-07-23 05:10:19', '2021-07-23 05:10:19');
 
 --
 -- Indexes for dumped tables
@@ -357,7 +361,7 @@ ALTER TABLE `role_user`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
